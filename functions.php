@@ -96,51 +96,6 @@ function flatinum_widgets_init() {
     'after_title' => '</h3>'
   ) );
 
-    register_sidebar( array(
-    'name' => __( 'Footer Bar' ),
-    'id' => 'footer_bar',
-    'before_widget' => '<div class="col-md-4">',
-    'after_widget' => '</div>',
-    'before_title' => '<h3 class="widgettitle">',
-    'after_title' => '</h3>'
-  ) );
-
-    register_sidebar( array(
-    'name' => __( 'Footer Bar' ),
-    'id' => 'footer_bar',
-    'before_widget' => '<div class="col-md-4">',
-    'after_widget' => '</div>',
-    'before_title' => '<h3 class="widgettitle">',
-    'after_title' => '</h3>'
-  ) );
-
-    register_sidebar( array(
-    'name' => __( 'Footer Bar' ),
-    'id' => 'footer_bar',
-    'before_widget' => '<div class="col-md-4">',
-    'after_widget' => '</div>',
-    'before_title' => '<h3 class="widgettitle">',
-    'after_title' => '</h3>'
-  ) );
-
-    register_sidebar( array(
-    'name' => __( 'Footer Bar' ),
-    'id' => 'footer_bar',
-    'before_widget' => '<div class="col-md-4">',
-    'after_widget' => '</div>',
-    'before_title' => '<h3 class="widgettitle">',
-    'after_title' => '</h3>'
-  ) );
-
-    register_sidebar( array(
-    'name' => __( 'Footer Bar' ),
-    'id' => 'footer_bar',
-    'before_widget' => '<div class="col-md-4">',
-    'after_widget' => '</div>',
-    'before_title' => '<h3 class="widgettitle">',
-    'after_title' => '</h3>'
-  ) );
-
     /* Pinegrow generated Register Sidebars End */
 }
 add_action( 'widgets_init', 'flatinum_widgets_init' );
