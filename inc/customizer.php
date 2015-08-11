@@ -164,17 +164,6 @@ function flatinum_customize_register( $wp_customize ) {
     'title' => __( 'Header Section' )
   ));
 
-    $wp_customize->add_setting( 'header_bgd', array(
-    'type' => 'theme_mod'
-  ));
-
-    $wp_customize->add_control( new WP_Customize_Media_Control( $wp_customize, 'header_bgd', array(
-    'label' => __( 'Header Background' ),
-    'type' => 'media',
-    'mime_type' => 'audio',
-    'section' => 'header_section'
-  ) ) );
-
     $wp_customize->add_setting( 'header_title', array(
     'type' => 'theme_mod',
     'default' => 'Simple Flat Theme'
@@ -382,17 +371,6 @@ function flatinum_customize_register( $wp_customize ) {
     'title' => __( 'Header Section' )
   ));
 
-    $wp_customize->add_setting( 'header_bgd', array(
-    'type' => 'theme_mod'
-  ));
-
-    $wp_customize->add_control( new WP_Customize_Media_Control( $wp_customize, 'header_bgd', array(
-    'label' => __( 'Header Background' ),
-    'type' => 'media',
-    'mime_type' => 'audio',
-    'section' => 'header_section'
-  ) ) );
-
     $wp_customize->add_setting( 'btn_backgroud_color', array(
     'type' => 'theme_mod'
   ));
@@ -596,17 +574,6 @@ function flatinum_customize_register( $wp_customize ) {
     'title' => __( 'Header Section' )
   ));
 
-    $wp_customize->add_setting( 'header_bgd', array(
-    'type' => 'theme_mod'
-  ));
-
-    $wp_customize->add_control( new WP_Customize_Media_Control( $wp_customize, 'header_bgd', array(
-    'label' => __( 'Header Background' ),
-    'type' => 'media',
-    'mime_type' => 'audio',
-    'section' => 'header_section'
-  ) ) );
-
     $wp_customize->add_setting( 'header_title', array(
     'type' => 'theme_mod',
     'default' => 'Simple Flat Theme'
@@ -760,17 +727,6 @@ function flatinum_customize_register( $wp_customize ) {
     'title' => __( 'Header Section' )
   ));
 
-    $wp_customize->add_setting( 'header_bgd', array(
-    'type' => 'theme_mod'
-  ));
-
-    $wp_customize->add_control( new WP_Customize_Media_Control( $wp_customize, 'header_bgd', array(
-    'label' => __( 'Header Background' ),
-    'type' => 'media',
-    'mime_type' => 'audio',
-    'section' => 'header_section'
-  ) ) );
-
     $wp_customize->add_setting( 'header_title', array(
     'type' => 'theme_mod',
     'default' => 'Simple Flat Theme'
@@ -923,17 +879,6 @@ function flatinum_customize_register( $wp_customize ) {
     $wp_customize->add_section( 'header_section', array(
     'title' => __( 'Header Section' )
   ));
-
-    $wp_customize->add_setting( 'header_bgd', array(
-    'type' => 'theme_mod'
-  ));
-
-    $wp_customize->add_control( new WP_Customize_Media_Control( $wp_customize, 'header_bgd', array(
-    'label' => __( 'Header Background' ),
-    'type' => 'media',
-    'mime_type' => 'audio',
-    'section' => 'header_section'
-  ) ) );
 
     $wp_customize->add_setting( 'header_title', array(
     'type' => 'theme_mod',
